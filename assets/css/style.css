@@ -1,0 +1,66 @@
+body{
+    background-image:url("../images/dark-triangles.png");
+}
+
+h1{
+    border: solid #4aaaa5;
+    border-width: 0px 0px 2px 0px;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+p{
+    padding: 0px 20px 0px 20px;
+}
+
+.AboutMe{
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: RGBA(255,255,255,.75);
+}
+
+.AboutMe:hover{
+    background-color: RGBA(255,255,255,.8);
+}
+
+.carousel-caption {
+    color: RGBA(0,0,0,0);
+}
+
+.carouselContainer:hover .d-block {
+    filter: blur(3px);
+}
+
+.carouselContainer:hover .carousel-caption {
+    color: RGBA(255,255,255,1);
+}
+
+.Overlay{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+    width: 92%;
+    height: 45px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+.contactContainer {
+    background-color: RGBA(255,255,255,.5);
+    border-radius: 10px;
+}
+
+.contactContainer:hover {
+    background-color: RGBA(255,255,255,.8);
+}
+
+footer {
+    background-color: #f8f9fa;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
