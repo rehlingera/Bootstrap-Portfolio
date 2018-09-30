@@ -64,3 +64,57 @@ footer {
     bottom: 0px;
     width: 100%;
 }
+
+.mobileCarouselText {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .mobileCarouselText {
+        display: initial;
+        color: RGBA(255,255,255,1);
+        font-weight: lighter;
+        text-align: center;
+        line-height: 30px;
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    .carouselContainer:hover .d-block {
+        filter: blur(0px);
+    }
+
+    .portfolioImg {
+        height: 15%;
+        width: 100%;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .portfolioSpacer {
+        display: none;
+    }
+
+    .Overlay {
+        bottom: 15px;
+    }
+
+    .contactSpacer {
+        display: none;
+    }
+
+    textarea.form-control {
+        height: 175px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .portfolioImg {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-height:450px) {
+    footer {
+        position: initial;
+    }
+}
